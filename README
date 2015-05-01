@@ -1,0 +1,13 @@
+This is a powershell script designed to remove all files in a directory created before a given number of days.
+
+The fileDeleter powershell script usage:
+
+fileDeleter -path -logOutput -daysBackToDelete
+
+-path specifies the file path of the folder to be searched
+
+-logOutput is the path of the location of the script output. It will be called FileDeletionScriptLog.txt
+
+-daysBackToDelete the number (in days) to delete 
+
+The script will create a log file called FileDeletionScriptLog.txt at the given logOutput path containing a list of files that were deleted by the script.
